@@ -1,2 +1,14 @@
 Gets barcode scan history data from http://qrooqroo.com.
 Relies on screen scrapping, use at your own risk.
+
+How to test
+$ ruby qroo.rb loginid password
+
+or
+
+$ sudo gem install sinatra shotgun
+$ shotgun myqroo.rb
+open "http://localhost:9393" and summit the login form.form
+
+Nothing is intended to be used as is.
+You may want to modify both client and sample server.
